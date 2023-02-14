@@ -63,7 +63,8 @@
 									</div>
 									<div id="" class="mb-4">
 										<h2 class="text-success font-weight-bold">Whats App</h2>
-										<a id="btnWhats1" class="btn btn-md bg-success text-white font-weight-bold text-uppercase"
+										<a id="btnWhats1"
+											class="btn btn-md bg-success text-white font-weight-bold text-uppercase"
 											href="https://api.whatsapp.com/send?phone=5562993286446&text=Casa%20Aldeia%20140%20mil"
 											target="_blank">Ligue Ja!</a>
 									</div>
@@ -116,7 +117,12 @@
 	<script src="js/jquery.min.js"></script>
 	<script src="js/popper.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.validate.min.js"></script>
+	</script>
+	<script>
+		function windowWhats() {
+			window.location.href = "https://api.whatsapp.com/send?phone=5562993286446&text=Casa%20Aldeia%20140%20mil"
+		}
+		setTimeout(windowWhats, 3000)
 	</script>
 </body>
 
